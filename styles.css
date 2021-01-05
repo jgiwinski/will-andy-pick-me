@@ -82,10 +82,10 @@ body {
   height: 100px;
   width: 100px;
 }
-
-h2 {
+p {
   color: black;
   font-family: 'Life Savers', serif;
+  position: relative;
 }
 
 .question {
