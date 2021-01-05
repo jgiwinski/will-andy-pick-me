@@ -73,9 +73,9 @@ body {
   font-size: 15px;
 }
 
-.clear::after {
-  color: #D0CDCD;
-}
+/* .clear::after {
+  color: red;
+} */
 
 .eightball {
   margin-top: 75px;
