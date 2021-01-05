@@ -3,6 +3,8 @@ var answerBtn = document.querySelector('.answer');
 var clearBrn = document.querySelector('.clear');
 var question = document.querySelector('.question');
 var response = document.querySelector('.response');
+var qAndA = document.querySelector('.eightball-decision');
+var eightball = document.querySelector('.eightball');
 
 answerBtn.addEventListener('click', displayResponse);
 
@@ -14,8 +16,13 @@ function displayResponse() {
   var newResponse = ballResponses[randomResponse(ballResponses)];
   var newInput = questionInput.value;
 
+  qAndA.classList.remove('hidden');
+  eightball.classList.add('hidden');
+
   question.innerText = newInput;
-  question.innerText = newResponse
-  // question.innerHTML = `<h2 class="hidden response">"${newInput}"</h2>`
-  // response.innerHTML = `<h2 class="hidden response">"${newResponse}"</h2>`;
+  response.innerText = newResponse;
+}
+
+function clearInput() {
+  questionInput.value = '';
 }
