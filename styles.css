@@ -10,3 +10,98 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  font-family: 'Life Savers', serif;
+  color: #2B4E80;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 335px;
+  width: 400px;
+  background-color: #E6ECF4;
+  padding: 20px;
+  margin: 20px;
+  position:relative;
+  text-align: center;
+}
+
+.input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  margin: 5px;
+  text-align: center;
+  color: #2B4E80;
+  font-size: 15px;
+}
+
+.answer {
+  background-color: #607AA0;
+  height: 30px;
+  width: 100%;
+  border: none;
+  margin: none;
+  color: white;
+  font-size: 15px;
+}
+
+.answer:hover {
+  background-color: #1C3455;
+}
+
+.clear {
+  background-color: #D0CDCD;
+  height: 40px;
+  width: 60px;
+  color: white;
+  border: none;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 15px;
+}
+
+.clear::after {
+  color: #D0CDCD;
+}
+
+.eightball {
+  margin-top: 75px;
+  height: 100px;
+  width: 100px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Life Savers', serif;
+}
+
+.question {
+  font-size: 30px;
+}
+
+.response {
+  font-size: 50px;
+}
+
+#woody {
+  height: 375px;
+  width: auto;
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
